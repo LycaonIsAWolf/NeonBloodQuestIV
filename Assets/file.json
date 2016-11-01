@@ -1,0 +1,62 @@
+[
+	{
+		"title": "charlemagne",
+		"tags": "",
+		"body": "<<if $ICharlemagne == 0>>\n    When was the last time you CONFESSED?\n    Has it been MONTHS? YEARS? <<glitch>>\n    When the BLOODY HELLKNIGHTS come, will you be ready? <<glitch>>\n    When the BROKEN SCREAMS overwhelm your body, will you be a GOLDEN CARCASS or a DISEASED HUSK?<<glitch>>\n    <<set $ICharlemagne to 1>>\n<<else>>\n    It's too late for you. <<glitch>>\n    <<set $CharlemagneDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 1084,
+			"y": 289
+		},
+		"colorID": 0
+	},
+	{
+		"title": "skeleton",
+		"tags": "",
+		"body": "<<if $ISkeleton == 0>>\n    This is YOUR FAULT, you know.\n    This is YOUR FAULT and there is NOTHING you can do about it. <<glitch>>\n    <<set $ISkeleton to 1>>\n<<else>>\n    Remember, this is YOUR FAULT.\n    <<set $SkeletonDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 450,
+			"y": 272
+		},
+		"colorID": 0
+	},
+	{
+		"title": "joan of arc",
+		"tags": "",
+		"body": "<<if $IJoan == 0>>    \n    Outside this town there is NOTHING! It is ALL GONE! Amazing!\n    <<set $IJoan to 1>>\n<<else>>\n    You have brought noting but SUFFERING and swarms of BLOOD CRICKETS to my home.\n    Begone.\n    <<set $JoanDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 1085,
+			"y": 693
+		},
+		"colorID": 0
+	},
+	{
+		"title": "peasant",
+		"tags": "",
+		"body": "<<if $IPeasant == 0>>\n    Warm out today. \n    Warm out yesterday. \n    Probably gonna be warm out tomorrow.\n    <<set $IPeasant to 1>>\n<<else>>\n    Please leave me alone.\n    <<set $PeasantDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 755,
+			"y": 489
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "<<set $ISkeleton to 0>>\n<<set $IJoan to 0>>\n<<set $IDeath to 0>>\n<<set $IPeasant to 0>>\n<<set $ICharlemagne to 0>>\n<<set $IWench to 0>>\n<<set $IBabe to 0>>\n<<set $IGallant to 0>>\n<<set $IBosch to 0>>\n\n<<set $SkeletonDone to 0>>\n<<set $JoanDone to 0>>\n<<set $DeathDone to 0>>\n<<set $PeasantDone to 0>>\n<<set $CharlemagneDone to 0>>\n<<set $WenchDone to 0>>\n<<set $BabeDone to 0>>\n<<set $GallantDone to 0>>\n<<set $BoschDone to 0>>",
+		"position": {
+			"x": 746,
+			"y": 19
+		},
+		"colorID": 0
+	},
+	{
+		"title": "death",
+		"tags": "",
+		"body": "<<if $IDeath == 0>>\n    DO YOU KNOW HOW HARD IT IS TO DIE?\n    HAVE YOU EVER TRIED TO DIE?<<glitch>>\n    HAVE YOU EVER REALLY HAD TO WORK TO NOT DIE?\n    <<set $IDeath to 1>>\n<<else>>\n    I AM ALMOST COMPLETELY SOULLESS\n    I AM INCAPABLE OF BEING HUMAN\n    I AM INCAPABLE OF BEING INHUMAN\n    I AM INSEPERABLE FROM THE IMPOSSIBLE\n    <<set $DeathDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 439,
+			"y": 694
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"title": "bosch",
+		"tags": "",
+		"body": "<<if $IBosch == 0>>\n    GULP GULP GULP!\n    delicious.\n    <<set $IBosch to 1>>\n<<elseif $IBosch == 1>>\n    oh hey. . . . . . GULP!\n    <<set $IBosch to 2>>\n<<elseif $IBosch == 2>>\n    you know i had a feeling you had something to do with all this GULP!\n    <<set $IBosch to 3>>\n<<elseif $IBosch == 3>>\n    that said, GULP!\n    you've really outdone yourself this time\n    <<set $IBosch to 4>>\n<<elseif $IBosch == 4>>\n    what am i doing here? GULP! glad you asked.\n\n    i'm here to consume the SOULS OF THE DAMNED and chew bubble gum\n    <<set $IBosch to 5>>\n<<elseif $IBosch == 5>>\n    AND I'M ALL OUT OF BUBBLE GUM <<glitch>>\n    <<set $IBosch to 6>>\n<<elseif $IBosch == 6>>\n    cheesy line, totally worth it, would deliver again. GULP!\n    <<set $IBosch to 7>>\n<<else>>\n    anyway . . . GULP!\n    <<set $BoschDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 62,
+			"y": 221
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Gallant",
+		"tags": "",
+		"body": "<<if $IGallant == 0>>\n    You!\n    Stop There, Demon!\n    <<set $IGallant to 1>>\n<<elseif $IGallant == 1>>\n    Thou May Have Slain The HERO OF THE REALM\n    But Thou Shalt Not Have Me!\n    <<set $IGallant to 2>>\n<<elseif $IGallant == 2>>\n    Have At Thee! Put 'Em Up, Knave!\n    Never Mind The Blood, Have At Thee!\n    I Could Best Thee With My Eyes Gouged Out!\n    <<set $IGallant to 3>>\n<<elseif $IGallant == 3>>\n    Coward! Rapscallion! Fiend!\n    Ingrate! Liar! She-Devil!\n    Murderess! Monster! Strumpet!\n    <<set $IGallant to 4>>\n<<elseif $IGallant == 4>>\n    What Did You Do To The HERO OF THE REALM?!\n    What Did You Do To her?!\n    <<set $IGallant to 5>>\n<<elseif $IGallant == 5>>\n    She Was My Girlfriend.\n    Without Her I Am Nothing. . .\n    <<set $IGallant to 6>>\n<<elseif $IGallant == 6>>\n    I'll Kill You!\n    I'll Kill You!!\n    <<set $IGallant to 7>>\n<<elseif $IGallant == 7>>\n    No!\n    cough cough\n    You Were Too Strong!\n    How Is This Possible!\n    Noooooooooo!\n\n    I Die!\n    <<set $IGallant to 8>>\n<<else>>\n    Nooooooooooo\n    <<set $GallantDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 285,
+			"y": 220
+		},
+		"colorID": 0
+	},
+	{
+		"title": "bloodbabe",
+		"tags": "",
+		"body": "<<if $IBabe == 0>>\n    The prophets foretold of a hero who would save our realm from darkness.\n    <<set $IBabe to 1>>\n<<elseif $IBabe == 1>>\n    A hero of unwavering strength and virtue, a maiden of pure light, a mortal\n    chosen by the gods for greatness.\n    <<set $IBabe to 2>>\n<<elseif $IBabe == 2>>\n    We used to have a hero, a knight from the west. THE HERO OF THE REALM.\n    <<set $IBabe to 3>>\n<<elseif $IBabe == 3>>\n    But where is she now? Where has she gone to? What has become of her?\n    <<set $IBabe to 4>>\n<<elseif $IBabe == 4>>\n    You should know better than anyone. \n    Demon.\n    <<set $IBabe to 5>>\n<<else>>\n    Well?\n    <<set $BabeDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 523,
+			"y": 219
+		},
+		"colorID": 0
+	},
+	{
+		"title": "boozy",
+		"tags": "",
+		"body": "<<if $IWench == 0>>\n    Drinks! Drinks! Drinks all around!\n    Get your drinks here! Care for a drink?\n    <<set $IWench to 1>>\n<<elseif $IWench == 1>>\n    Drinks! Drinks! A drink for you!\n    A drink for you! Drinks! Drinks!\n    <<set $IWench to 2>>\n<<elseif $IWench == 2>>\n    Let's drink like it's the end of the world!\n    It's the end of the world! Drink like it's\n    the end of the world! Drinks! Drinks!\n    <<set $IWench to 3>>\n<<elseif $IWench == 3>>\n    It's the end of the world! I'll Drink to that!\n    Care for a drink, demon? Have a drink! Let's\n    drink like it's the end of the world! Drinks!\n    Drinks here! Have a drink!\n    <<set $IWench to 4>>\n<<elseif $IWench == 4>>\n    The gods are all dead! A drink for the dead gods!\n    Let's drink for the dead gods! Drink for the dead\n    gods, and fallen heroes! Cheers! Cheers! Drinks!\n    <<set $IWench to 5>>\n<<elseif $IWench == 5>>\n    Let's drink until you die! Let's drink until we all\n    die! I hope you die drinking! I hope I die drinking!\n    Drinks! Get your drinks here! Drink your drinks!\n    <<set $IWench to 6>>\n<<elseif $IWench == 6>>\n    It's the end of the world! Let's see you all die\n    drinking! Drink till you die! Die! I hope you die!\n    I hope YOU die! I hope You DIE ESPECIALLY! Drink!\n    DRINK, you! Drink! Die! Die! Die!\n    <<set $IWench to 7>>\n<<elseif $IWench == 7>>\n    I CAN'T HELP BUT NOTICE YOU ARE STILL ALIVE.\n    DRINK. DRINK, DEMON, AND DIE. DRINK.\n    <<set $IWench to 8>>\n<<elseif $IWench == 8>>\n    I KNOW WHAT YOU DID.\n    <<set $IWench to 9>>\n<<else>>\n    Drinks! Drinks! Drinks here!\n    <<set $WenchDone to 1>>\n<<endif>>\n\n<<if $SkeletonDone == 1 and $JoanDone == 1 and $DeathDone == 1 and $PeasantDone == 1 and $CharlemagneDone == 1 and $WenchDone == 1 and $BabeDone == 1 and $GallantDone == 1 and $BoschDone == 1>>\n    <<endgame>>\n<<endif>>",
+		"position": {
+			"x": 757,
+			"y": 221
+		},
+		"colorID": 0
+	}
+]
